@@ -3,5 +3,6 @@ body{
 }
 
 .titulo{
-    color: violet;
+    color: rgb(170, 159, 235);
+    font-size: 50px;
 }
