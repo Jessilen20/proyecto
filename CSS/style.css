@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(243, 212, 177);
+.fondo {
+    background-color: rgba(243, 212, 177, 0.527);
 }
 
 .title {
