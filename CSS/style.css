@@ -10,6 +10,7 @@
     background-color: rgba(243, 212, 177, 0.527);
 }
 
+
 .title {
     height: 20vh;
     font-family: 'Shizuru', cursive;
@@ -63,4 +64,5 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
 }

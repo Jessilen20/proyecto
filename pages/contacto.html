@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="title">
         MAMOSI
@@ -41,8 +43,8 @@
                             Productos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="producto1.html">Peluches</a></li>
-                            <li><a class="dropdown-item" href="#">Papeleria</a></li>
+                            <li><a class="dropdown-item" href="producto1.html">Papeleria</a></li>
+                            <li><a class="dropdown-item" href="#">Peluches</a></li>
                             <li><a class="dropdown-item" href="#">Llaveros</a></li>
                         </ul>
                     </li>
@@ -51,12 +53,85 @@
         </div>
     </nav>
 
+    <main class="container">
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="../images/Screenshot_7.jpg" class="img-fluid" alt="Datitos">
+            </div>
+            <div class="col-md-4">
+                <form action="">
+                    <h2>Dejanos tus datos</h2>
+                    <div class="form-floating mb-3">
+                        <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Ingresa tu nombre</label>
+                    </div>
+
+                    <div class="row g-2">
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="cel" class="form-control" id="floatingInputGrid"
+                                    placeholder="name@example.com">
+                                <label for="floatingInputGrid">Numero de celular</label>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating mb-3">
+                                <input type="edad" class="form-control" id="floatingInputGrid"
+                                    placeholder="name@example.com">
+                                <label for="floatingInputGrid">Ingresa tu edad</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Dejanos tu correo electronico</label>
+                    </div>
+
+                    <h4>¿Qué te pareció la pagina?</h4>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Mala
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Buena
+                        </label>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Muy Buena
+                        </label>
+                    </div>
+
+
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Tus comentarios nos ayudan a mejorar</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-primary">Enviar</button>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
     <!-- Footer -->
     <footer class="footer">
 
-        <p>PRUEBA | DESAFIO ADICIONAL | OZZY </p>
+        <p>PRUEBA | DESAFIO 06 | OZZY </p>
         <p>Author: Jessica Osores | <a href="jessi.osores@mamosi.com">jessi.osores@mamosi.com</a></p>
 
     </footer>
 </body>
+
 </html>
