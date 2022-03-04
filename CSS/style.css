@@ -7,15 +7,16 @@
 }
 
 .fondo {
-    background-color: rgba(243, 212, 177, 0.527);
+    background-image: linear-gradient(to left, rgb(191, 134, 230), rgba(105, 177, 245, 0.432));
 }
 
 
 .title {
-    height: 20vh;
+    height: 30vh;
     font-family: 'Shizuru', cursive;
     text-align: center;
-    background-color: rgb(160, 189, 240);
+    background:url(../images/Diseño\ portada.png)no-repeat;
+    background-position: center;
     color: rgb(134, 14, 124);
     font-size: 90px;
     font-weight: bold;
@@ -62,12 +63,5 @@
 
 /* FOOTER */
 .footer {
-    height: 10vh;
-    color: #080708;
-    background-color: rgb(159, 189, 243);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
+   margin-top: 5px;
 }
