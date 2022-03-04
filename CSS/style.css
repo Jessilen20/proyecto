@@ -19,6 +19,7 @@
     color: rgb(134, 14, 124);
     font-size: 90px;
     font-weight: bold;
+    
 }
 
 .article__text{
@@ -54,6 +55,10 @@
 .bloque__listItem{
         margin: 10px;
     }
+
+.imgPrin{
+    border: 2px solid #080708;
+}
 
 /* FOOTER */
 .footer {
